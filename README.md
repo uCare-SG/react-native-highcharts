@@ -1,6 +1,6 @@
 # React-Native Highcharts
 
-This is a react-native component for IOS and Android that uses [Highcharts](http://www.highcharts.com) where you send the configuration as a prop and the chart is rendered within a WebView 
+This is a react-native component for IOS and Android that uses [Highcharts](http://www.highcharts.com) where you send the configuration as a prop and the chart is rendered within a WebView
 
 ## Getting Started
 ```bat
@@ -96,6 +96,7 @@ render() {
 | stock     | false      |   Default false; use Highstock |
 | more     | false      |   Default false; use Highstock-more |
 | style | false      |   Style object to be passed onto the WebView |
+| init  | false      |   String of js code to run before Highcharts initiation. `Highcharts` will be available by then. |
 
 ## NOTE
 if not rendering in real device add this two props to the component
@@ -107,4 +108,3 @@ domStorageEnabled={true}
 ## Stuff used to make this:
 
  * [Highcharts](http://www.highcharts.com/) for making the chart
- 
